@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 1712342589}
   - component: {fileID: 1712342592}
   - component: {fileID: 1712342591}
-  - component: {fileID: 1712342590}
+  - component: {fileID: 1712342594}
   - component: {fileID: 1712342593}
   m_Layer: 0
   m_Name: AttackRange
@@ -490,26 +490,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712342588}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0, z: 0}
-  m_LocalScale: {x: 12, y: 12, z: 1}
+  m_LocalPosition: {x: -0.02, y: 0.069, z: 0}
+  m_LocalScale: {x: 12, y: 12.143999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 993448209}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1712342590
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712342588}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1712342591
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -593,6 +580,20 @@ MonoBehaviour:
   cannon: {fileID: 166355174}
   laserObject: {fileID: 2554031966280911422, guid: 9e63fcdbc4687f94b99fd46f58922562, type: 3}
   attackspeed: 1
+--- !u!136 &1712342594
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712342588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1955923443
 GameObject:
   m_ObjectHideFlags: 0

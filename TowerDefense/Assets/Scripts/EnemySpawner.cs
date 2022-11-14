@@ -12,7 +12,7 @@ public class EnemySpawner : MonoBehaviour
     void Update()
     {
         if(TimerFinished()){
-            Vector2 spawnPos = new Vector2(-7,Random.Range(-1,1));
+            Vector2 spawnPos = new Vector2(-7,Random.Range(-2,2));
             Instantiate(enemy, spawnPos,enemy.transform.rotation);
         }
     }
