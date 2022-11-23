@@ -143,4 +143,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentWP: {fileID: 0}
-  speed: 5
+  speed: 3
